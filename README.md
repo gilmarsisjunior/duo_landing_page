@@ -2,8 +2,8 @@
 
 PHP ^7.3
 
-1 - Configure o arquivo .env conforme suas configurações de banco de dados.
-2 - composer install.
-3 - npm install.
-4 - npm run prod.
-4 - php artisan serve.
+1 - Configure o arquivo .env conforme suas configurações de banco de dados. <br>
+2 - composer install.<br>
+3 - npm install.<br>
+4 - npm run prod.<br>
+4 - php artisan serve.<br>
