@@ -1,0 +1,103 @@
+@import url(//db.onlinewebfonts.com/c/7999845bd9142ab2e9cf2264ee926583?family=NewsGoth+Lt+BT);
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+@import url('http://fonts.cdnfonts.com/css/news-gothic-mt');
+
+
+@media (max-width: 768px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .background{
+        background-image: url('../images/img-fundo.png');
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    .img-container{
+        display: flex;
+        justify-content: center;
+    }
+    .logo{
+        margin-top: 39px;
+    }
+
+    .retangle{
+        position: absolute;
+        margin-top: 38px;
+        width: 343px;
+        height: 557px;
+        background-image: url('../images/retangulo.svg');
+        padding-left: 30px;
+    }
+    .retangle div{
+        padding-top: 32px;
+    }
+    .retangle .title{
+        font-family: 'NewsGoth Lt BT';
+        color: white;
+        font-size: 32px;
+    }
+    .paragraph{
+        font-family: 'Roboto Slab', serif;
+        color: white;
+    }
+    .sub-title{
+        font-family: 'News Gothic MT', sans-serif;
+        color: white;
+        font-size: 18px;
+    }
+
+    .text-link {
+        font-family: 'Roboto Slab', serif;
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        padding-left: 5px;
+    }
+
+    .second-area{
+        background-color: #008FF4;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-top: 110px;
+    }
+    #sub-title{
+        line-height: 30px;
+        font-weight: 500;
+    }
+    .ipts {
+        padding-top: 15px;
+    }
+
+    .form-control {
+        margin-bottom: 15px;
+        border-radius: 0;
+        padding-right: 100px;
+    }
+    .btn {
+        width: 300px;
+        height: 48px;
+        background-color: #00E2FF;
+        border-radius: 0;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    button {
+        border: none;
+        background-color: transparent;
+        color: white;
+        font-weight: 600;
+    }
+}

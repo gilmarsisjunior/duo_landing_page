@@ -1,0 +1,64 @@
+@import url(//db.onlinewebfonts.com/c/7999845bd9142ab2e9cf2264ee926583?family=NewsGoth+Lt+BT);
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+@import url('http://fonts.cdnfonts.com/css/news-gothic-mt');
+
+.top-title{
+    color: darkgray;
+    font-family: 'NewsGoth Lt BT';
+    font-size: 14px;
+}
+.titles {
+    margin-left: 3%;
+}
+.title{
+    font-size: 28px;
+    color: #008FF4;
+    font-family: 'NewsGoth Lt BT';
+    line-height: 0;
+}
+
+.documents{
+    display: flex;
+
+}
+.docs {
+    margin-right: 40px;
+}
+
+.description{
+    text-align: center;
+    color: darkgray;
+  }
+  td{
+    padding-bottom: 8px;
+}
+.file-mobile{
+    display: none;
+}
+.name-column{
+    padding-right: 500px;
+}
+@media screen and (max-width: 500px) {
+   
+  .documents{
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .docs{
+    width: 40%;
+  }
+  .description{
+    text-align: center;
+  }
+  .file-length{
+    display: none;
+  }
+  .file-mobile{
+    display: block;
+    line-height: 0;
+    color: darkgray;
+    }
+    .name-column{
+        padding-right: 80px;
+    }
+}
