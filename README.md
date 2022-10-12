@@ -6,4 +6,5 @@ PHP ^7.3
 2 - composer install.<br>
 3 - npm install.<br>
 4 - npm run prod.<br>
-4 - php artisan serve.<br>
+4 - php artisan storage:link.<br>
+5 - php artisan serve.
