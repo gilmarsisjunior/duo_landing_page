@@ -15,7 +15,7 @@
     <div class="documents" style="margin-top: 80px">
         <div class="docs">
             <a href="{{url('/flyers')}}"><img src="{{URL::asset('images/LINHA.svg')}}" alt="" class="doc-img" style="width: 150px"></a>
-            <h3 class="description">ECOS</h3>
+            <h3 class="description">ECOS - teste aqui</h3>
         </div>
         <div class="docs">
             <a href="{{url('/flyers')}}"><img src="{{URL::asset('images/FCE.svg')}}" alt="" class="doc-img"  style="width: 150px"></a>

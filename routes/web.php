@@ -22,9 +22,15 @@ Route::get('/catalogos', function () {
 Route::get('/flyers', function () {
     return view('catalogos.catalogos-flyers');
 });
-Route::get('/arquivos', function () {
+Route::get('/arquivos2', function () {
+
     return view('catalogos.files');
 });
+Route::get('/arquivos/{directory}/{subDirectory}', [App\Http\Controllers\Files\FilesController::class, 'index'])->name('arquivos');
+Route::get('/download/{public}/{directory}/{subDirectory}/{subDirectoryname}', [App\Http\Controllers\Files\FilesController::class, 'downloadFile'])->name('download');
+
+
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
